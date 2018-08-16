@@ -21,7 +21,7 @@ var payments = {
 					house_no : req.body.house_no,
 					balance : req.body.balance,
 					amount_paid : req.body.amount_paid,
-					month   : req.body.month,
+					paymonth   : req.body.paymonth,
 					tenant  : mongoose.Types.ObjectId(req.body.tenant)
 				};
 
