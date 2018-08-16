@@ -11,7 +11,7 @@ module.exports = function(app , mongoose){
        		house_no    : {type : String},
 		amount      : {type : String},
                 balance     : {type : String},
-		month       : {type : String},
+		paymonth    : {type : String},
 		amount_paid : {type : String},
 		tenant       : {type: mongoose.Schema.Types.ObjectId, ref: 'Tenants'}
 	
